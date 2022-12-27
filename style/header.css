@@ -1,0 +1,225 @@
+.link_white {
+    color: var(--text-color-light);
+}
+
+/*  */
+.header {
+    background: var(--bg-header);
+    color: var(--text-color-light);
+}
+.nav {
+    height: 100px;
+    padding: 0 65px;
+}
+.nav_block {
+    height: 100%;
+    /* max-width: 1310px; */
+    display: flex;
+    justify-content: space-between;
+}
+.block_orange {
+    background: var(--bg-orange_accent);
+    width: 137px;
+    height: 140px;
+    color: var(--text-color-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.name_homeid {
+    height: 39px;
+    margin-top: 12px;
+    font-weight: 200;
+}
+.nav_block_left {
+    /* margin: 35px 0 0 0; */
+    display: flex;
+    align-items: center;
+}
+.small_line_block {
+    width: 40px;
+    height: 2px;
+    background: #5a5a5a;
+}
+.nav_link {
+    margin: 0 10px;
+    cursor: pointer;
+    opacity: 75%;
+    transition: 500ms;
+}
+.nav_link:hover {
+    opacity: 100%;
+    transition: 500ms;
+}
+
+.marginX7 {
+    margin: 0 7px;
+}
+.nav_btn_wrap {
+    display: flex;
+    align-items: center;
+    width: 126px;
+    height: 39px;
+    border: 2px solid #5a5a5a;
+    cursor: pointer;
+    opacity: 75%;
+    transition: 500ms;
+}
+.container_btn:hover,
+.nav_btn_wrap:hover {
+    opacity: 100%;
+    background: #5a5a5a;
+    transition: 500ms;
+}
+.nav_btn {
+    padding: 10px;
+}
+.icon_btn {
+    width: 16px;
+    height: 16px;
+}
+.long_line_block {
+    max-width: 1310px;
+    height: 2px;
+    background: #5a5a5a;
+}
+.header_block {
+    margin-top: 40px;
+    padding: 0 0 0 65px;
+    display: flex;
+}
+.header_block_right {
+    width: 340px;
+}
+.header_link_wrap {
+    margin-top: 45px;
+}
+
+.header_link {
+    margin-bottom: 20px;
+    opacity: 75%;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.header_link:hover {
+    opacity: 100%;
+    transition: 200ms;
+}
+
+.btn_orange_big {
+    width: 243px;
+    height: 51px;
+    margin-top: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-orange_accent);
+    cursor: pointer;
+    transition: 400ms;
+}
+.btn_orange_big:hover {
+    background: #dd4d25;
+    transition: 400ms;
+}
+
+.header_block_title {
+    font-family: "Odor Mean Chey", sans-serif;
+    font-weight: 200;
+    position: relative;
+    width: 559px;
+    margin-top: 30px;
+    font-size: 48px;
+    line-height: 65px;
+    line-height: 135%;
+    z-index: 10;
+}
+.header_block_text {
+    margin-top: 45px;
+    line-height: 24px;
+    color: var(--text-color-grey);
+    line-height: 146%;
+    font-weight: 100;
+}
+.img_slide_wrap {
+    margin-top: 45px;
+    display: flex;
+    position: relative;
+    z-index: 10;
+}
+.header_block_left {
+    width: 1040px;
+    /* transform: translate(64.5px, 0); */
+}
+.slider_img_active {
+    width: 1040px;
+    height: 808px;
+    transition: 500ms;
+}
+.img_slider {
+    margin: 0 30px 0 0;
+    transition: 500ms;
+    /* width: 100%; */
+}
+
+.block_button {
+    height: 130px;
+    display: flex;
+    align-items: end;
+}
+.button_block_left {
+    height: 100%;
+    width: 735px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px 0 60px;
+}
+.slider_count {
+}
+.line_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.line_slider {
+    width: 520px;
+    height: 2px;
+    background: #4d4949;
+}
+.line_slider_active {
+    height: 2px;
+    width: 50%;
+    background: #909090;
+}
+.slider_arrow_wrap {
+    display: flex;
+}
+.arrow_icon {
+    height: 24px;
+    width: 24px;
+    margin: 8px;
+    cursor: pointer;
+}
+.arrow_next {
+    background: url(../img/icon/hover/arrow_dark_right.svg);
+}
+.arrow_prev {
+    background: url(../img/icon/hover/arrow_dark_left.svg);
+}
+.arrow_next:hover {
+    background: url(../img/icon/hover/arrow_light_right.svg);
+}
+.arrow_prev:hover {
+    background: url(../img/icon/hover/arrow_light_left.svg);
+}
+
+.button_block_right {
+    width: 50%;
+    height: 105px;
+    background: #ffffff;
+    position: relative;
+    transform: translate(0px, 1px);
+}

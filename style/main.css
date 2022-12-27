@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Roboto:wght@500;900&display=swap");
+@font-face {
+    font-family: "SF Pro Text";
+    src: local("SF Pro"), url(./font/SF_Pro_woff2/SFProDisplay-Black.woff2);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: local("SF Pro"), url(./font/SF_Pro_woff2/SFProDisplay-Regular.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: local("SF Pro"), url(./font/SF_Pro_woff2/SFProDisplay-Medium.woff2);
+    font-weight: 00;
+    font-style: normal;
+}
+
+* {
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 16px;
+}
+/* ==================================== */
+/* ==================================== */
+:root {
+    --bg-header: #251e1e;
+    --bg-orange_accent: #fa582a;
+    --text-color-light: #ffffff;
+    --text-color-grey: #e6e6e6;
+}
+/* ==================================== */
+/* ==================================== */
+.active_line_1 {
+    position: relative;
+    /* margin: auto; */
+    transition: 500ms;
+}
+
+.mov_preview {
+    transform: translate(-193px, 0px);
+}
+/* ==================================== */
+/* ==================================== */
+body {
+    background: #eeeeee;
+}
+main {
+    max-width: 1440px;
+    margin: auto;
+    background: #ffffff;
+}

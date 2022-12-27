@@ -1,0 +1,99 @@
+.container {
+    margin: 100px 65px 0;
+    /* background: linear-gradient(180.81deg, #1f2122 0.69%, #162129 57.07%); */
+    background: linear-gradient(180.81deg, #1f2122 0.69%, #162129 57.07%);
+}
+.container_block_one {
+    display: flex;
+    padding: 75px 0 0 0;
+}
+.container_block_one_left {
+    width: 335px;
+    display: flex;
+    align-items: center;
+}
+.container_block_text {
+    padding: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--text-color-light);
+}
+.container_block_one_right {
+    width: 975px;
+}
+.container_card {
+    width: 893px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.container_card_img {
+    width: 417px;
+    height: 269px;
+}
+.container_card_block {
+    padding: 0 30px;
+}
+.card_block_title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #251e1e;
+}
+.card_block_text {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #251e1e;
+}
+.container_block_one_right .container_card:nth-child(1) .container_card_img {
+    background: url(../img/block_site/Rectangle_1.png);
+}
+.container_block_one_right .container_card:nth-child(2) .container_card_img {
+    background: url(../img/block_site/Rectangle_2.png);
+}
+.container_block_one_right .container_card:nth-child(3) .container_card_img {
+    background: url(../img/block_site/Rectangle_3.png);
+}
+.container_block_two {
+    height: 755px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../img/block_site/big_img.png);
+}
+.container_block_two_title {
+    margin-top: 100px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--text-color-light);
+}
+.container_block_two_text {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--text-color-light);
+}
+.container_btn {
+    padding: 10px 16px;
+    margin-top: 30px;
+    color: var(--text-color-light);
+    border: 1px solid #878787;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.car {
+    display: flex;
+    justify-content: end;
+
+    position: relative;
+    transform: translate(500px 285);
+    text-align: center;
+}
